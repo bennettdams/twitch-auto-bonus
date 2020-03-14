@@ -1,2 +1,3 @@
-# twitch-auto-bonus
-Firefox extension to automatically claim the Twitch Channel Points bonus 
+# Twitch Auto Bonus
+
+Firefox extension to automatically claim the Twitch Channel Points bonus

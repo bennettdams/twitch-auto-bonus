@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Twitch Auto Bonus",
+  "version": "0.0.1",
+
+  "description": "Automatically redeems the Twitch channel points bonus.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/*"],
+      "js": ["auto-bonus.js"]
+    }
+  ]
+}
